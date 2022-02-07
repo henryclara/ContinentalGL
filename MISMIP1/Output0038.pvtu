@@ -1,0 +1,55 @@
+<VTKFile type="PUnstructuredGrid" version="0.1" byte_order="LittleEndian">
+  <PUnstructuredGrid>
+    <PPointData Scalars="pressure" Vectors="normal vector">
+      <PDataArray type="Float64" Name="pressure" NumberOfComponents="1" format="appended"/>
+      <PDataArray type="Float64" Name="ceq residual" NumberOfComponents="1" format="appended"/>
+      <PDataArray type="Float64" Name="dsdt" NumberOfComponents="1" format="appended"/>
+      <PDataArray type="Float64" Name="ds" NumberOfComponents="1" format="appended"/>
+      <PDataArray type="Float64" Name="bedrock" NumberOfComponents="1" format="appended"/>
+      <PDataArray type="Float64" Name="distance" NumberOfComponents="1" format="appended"/>
+      <PDataArray type="Float64" Name="zs" NumberOfComponents="1" format="appended"/>
+      <PDataArray type="Float64" Name="zs residual" NumberOfComponents="1" format="appended"/>
+      <PDataArray type="Float64" Name="zb" NumberOfComponents="1" format="appended"/>
+      <PDataArray type="Float64" Name="zb residual" NumberOfComponents="1" format="appended"/>
+      <PDataArray type="Float64" Name="zb accumulation" NumberOfComponents="1" format="appended"/>
+      <PDataArray type="Float64" Name="groundedmask" NumberOfComponents="1" format="appended"/>
+      <PDataArray type="Float64" Name="depth" NumberOfComponents="1" format="appended"/>
+      <PDataArray type="Float64" Name="height" NumberOfComponents="1" format="appended"/>
+      <PDataArray type="Float64" Name="bottom zb" NumberOfComponents="1" format="appended"/>
+      <PDataArray type="Float64" Name="normal vector" NumberOfComponents="3" format="appended"/>
+      <PDataArray type="Float64" Name="fwater" NumberOfComponents="3" format="appended"/>
+      <PDataArray type="Float64" Name="velocity" NumberOfComponents="3" format="appended"/>
+      <PDataArray type="Float64" Name="stress vector" NumberOfComponents="3" format="appended"/>
+    </PPointData>
+    <PCellData>
+      <PDataArray type="Int32" Name="GeometryIds" format="appended"/>
+    </PCellData>
+    <PPoints>
+      <DataArray type="Float64" NumberOfComponents="3" format="appended"/>
+    </PPoints>
+    <Piece Source="Output0001par0038.vtu"/>
+    <Piece Source="Output0002par0038.vtu"/>
+    <Piece Source="Output0003par0038.vtu"/>
+    <Piece Source="Output0004par0038.vtu"/>
+    <Piece Source="Output0005par0038.vtu"/>
+    <Piece Source="Output0006par0038.vtu"/>
+    <Piece Source="Output0007par0038.vtu"/>
+    <Piece Source="Output0008par0038.vtu"/>
+    <Piece Source="Output0009par0038.vtu"/>
+    <Piece Source="Output0010par0038.vtu"/>
+    <Piece Source="Output0011par0038.vtu"/>
+    <Piece Source="Output0012par0038.vtu"/>
+    <Piece Source="Output0013par0038.vtu"/>
+    <Piece Source="Output0014par0038.vtu"/>
+    <Piece Source="Output0015par0038.vtu"/>
+    <Piece Source="Output0016par0038.vtu"/>
+    <Piece Source="Output0017par0038.vtu"/>
+    <Piece Source="Output0018par0038.vtu"/>
+    <Piece Source="Output0019par0038.vtu"/>
+    <Piece Source="Output0020par0038.vtu"/>
+    <Piece Source="Output0021par0038.vtu"/>
+    <Piece Source="Output0022par0038.vtu"/>
+    <Piece Source="Output0023par0038.vtu"/>
+    <Piece Source="Output0024par0038.vtu"/>
+  </PUnstructuredGrid>
+</VTKFile>
